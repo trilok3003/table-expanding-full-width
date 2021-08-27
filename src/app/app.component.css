@@ -1,0 +1,35 @@
+/* Tables */
+.Table-Normal {
+  position: relative;
+  //display: block;
+  margin: 10px auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.Table-Normal thead tr {
+  background-color: #e74c3c;
+  font-weight: bold;
+}
+
+.Table-Normal tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: 1px solid #999;
+  width: 100%;
+}
+
+.Table-Normal tr td {
+  margin: 0;
+  padding: 4px 8px;
+  border: 0;
+  border: 1px solid #999;
+}
+
+.Table-Normal tbody tr:nth-child(2) {
+  background-color: #eee;
+}
